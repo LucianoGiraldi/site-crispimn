@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #05243C; /* Default text color */
+    @apply bg-light-gray;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply text-primary;
+  }
+  /* Custom scrollbar for a premium feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #A0A4A3;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #364858;
+  }
+}
+
+/* Print styles for calculator */
+@media print {
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+  header, footer, nav, .no-print {
+    display: none !important;
+  }
+  .print-area {
+    display: block !important;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  /* Ensure text is black for printing */
+  h1, h2, h3, h4, h5, h6, p, span, div {
+    color: #000 !important;
+  }
+}

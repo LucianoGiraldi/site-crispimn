@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 50 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .shield-fill { fill: #05243C; }
+      .shield-stroke { stroke: #A0A4A3; stroke-width: 1; }
+      .key-fill { fill: #E7B03C; }
+    </style>
+  </defs>
+  <!-- Shield shape (simplified) -->
+  <path class="shield-fill shield-stroke" d="M10 0 L40 0 C45 0 48 3 48 8 L48 45 C48 50 45 53 40 53 L10 53 C5 53 2 50 2 45 L2 8 C2 3 5 0 10 0 Z"/>
+  <!-- Key (simplified) - positioned relative to shield -->
+  <circle class="key-fill" cx="35" cy="40" r="3"/>
+  <rect class="key-fill" x="34" y="37" width="2" height="10"/>
+  <rect class="key-fill" x="36" y="45" width="2" height="2"/>
+  <rect class="key-fill" x="32" y="45" width="2" height="2"/>
+</svg>

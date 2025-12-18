@@ -1,0 +1,29 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .shield-fill { fill: #05243C; } /* Keep shield dark for contrast */
+      .shield-stroke { stroke: #A0A4A3; stroke-width: 1; }
+      .eagle-fill { fill: #FFFFFF; } /* White for dark background */
+      .cross-fill { fill: #FFFFFF; } /* White for dark background */
+      .key-fill { fill: #E7B03C; } /* Gold remains */
+      .text-primary { fill: #FFFFFF; } /* White for dark background */
+      .text-secondary { fill: #A0A4A3; } /* Silver for dark background */
+    </style>
+  </defs>
+  <!-- Shield shape (simplified) -->
+  <path class="shield-fill shield-stroke" d="M10 0 L40 0 C45 0 48 3 48 8 L48 45 C48 50 45 53 40 53 L10 53 C5 53 2 50 2 45 L2 8 C2 3 5 0 10 0 Z"/>
+  <!-- Eagle (simplified abstract shape) -->
+  <path class="eagle-fill" d="M25 10 L30 15 L25 20 L20 15 Z M25 10 C25 10 28 5 30 10 C32 15 25 25 25 25 C25 25 18 15 20 10 C22 5 25 10 25 10 Z"/>
+  <!-- Maltese Cross (simplified) -->
+  <path class="cross-fill" d="M15 35 H18 V38 H21 V35 H24 V32 H21 V29 H18 V32 H15 Z"/>
+  <!-- Key (simplified) -->
+  <circle class="key-fill" cx="35" cy="40" r="3"/>
+  <rect class="key-fill" x="34" y="37" width="2" height="10"/>
+  <rect class="key-fill" x="36" y="45" width="2" height="2"/>
+  <rect class="key-fill" x="32" y="45" width="2" height="2"/>
+
+  <!-- Text CRISPIMN -->
+  <text x="55" y="20" font-family="Montserrat, sans-serif" font-weight="bold" font-size="18" class="text-primary">CRISPIMN</text>
+  <!-- Text Consultoria & Perícia Financeira -->
+  <text x="55" y="38" font-family="Inter, sans-serif" font-weight="medium" font-size="10" class="text-secondary">CONSULTORIA & PERÍCIA FINANCEIRA</text>
+</svg>
