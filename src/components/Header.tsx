@@ -26,7 +26,7 @@ const Header: React.FC = () => {
 
   const Logo = () => (
     <Link to="/" className="flex items-center py-1"> {/* Adjusted padding for logo */}
-      <img src="/crispimn-logo.svg" alt="CRISPIMN Logo" className="h-10 md:h-12 w-auto" /> {/* Adjust size as needed */}
+      <img src="/CRISPIMN.png" alt="CRISPIMN Logo" className="h-10 md:h-12 w-auto" /> {/* Adjust size as needed */}
     </Link>
   )
 
